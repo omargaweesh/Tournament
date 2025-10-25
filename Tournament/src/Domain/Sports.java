@@ -55,5 +55,4 @@ public abstract class Sports {
         return Objects.hashCode(getPlayerName());
     }
 
-  /*  public abstract int getTotalRatingPoint() ;*/
 }
