@@ -19,9 +19,4 @@ public class HandballMatch extends Sports {
         return goalsReceived;
     }
 
-/*
-    @Override
-    public int getTotalRatingPoint() {
-        return getTotalRatingPoint();
-    }*/
 }
