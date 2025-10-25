@@ -35,7 +35,7 @@ public class HandballMatchScorer implements MatchScorer {
 
             String[] parts = line.split(";");
             if (parts.length < 7) {
-                throw new IllegalArgumentException("Invalid Basketball line format.");
+                throw new IllegalArgumentException("Invalid HandBall line format.");
             }
 
             String name = parts[0];
