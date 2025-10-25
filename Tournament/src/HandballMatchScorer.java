@@ -50,7 +50,7 @@ public class HandballMatchScorer implements MatchScorer {
 
             return new HandballMatch(name, nickname, num, teamName, position, goalMade, goalReceived, ratingPoints);
         } catch (Exception e) {
-            System.err.println("Ignoring malformed Basketball line: " + line + ". Error: " + e.getMessage());
+            System.err.println("Ignoring malformed HandBall line: " + line + ". Error: " + e.getMessage());
             return null;
         }
     }
